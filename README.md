@@ -65,7 +65,11 @@ function (message, callback) {
 }
 ```
 
-Compare to the following:
+Compare to the following, using the 'Arrange, Act, Assert' pattern.
+
+* 'Arrange' is used to declare your variable set or 'define your operating parameters'
+* 'Act' is how you combine the variables and execute a procedure
+* 'Assert' is where we check the result and return a value
 
 ```
 function (message, callback) {
